@@ -21,39 +21,3 @@ Changes from original source are:
 
 #define USE_REMOTE_CONFIG      0    // uncommented line for enable the configuration utility
 ```
-
-## Bill of materials
-
-- DOIT ESP32 DevKit V1 30 pins board
-- RS-485 transceiver like SN75176 or MAX485 or equivalent
-- Male XLR panel mount connector
-- 2x M3 x 8 mm bolts
-- 2x M3 nuts
-- 1K Ohm 1/4 watt resistor
-- 2K Ohm 1/4 watt resistor
-
-## Schematic
-
-```
-
-RX2/GPIO16  ---+
-               |                       
-          2k   |   1k    +---------------+
-GND  ---/\/\/\-+-/\/\/\--| R         VCC |---------- +5V (VIN when ESP32 board is powered by USB)
-                         |               |
-                    +----| RE/         B |---------- Data - (XLR pin 2)
-                    |    |    SN75176    |
-GPIO04      --------+----| DE          A |---------- Data + (XLR pin 3)
-                         |               |
-TX2/GPIO17  -------------| D         GND |---+------ Ground (XLR pin 1)
-                         +---------------+   |
-                                             |
-                                            GND
-```
-
-## Images
-
-![](images/Open%20from%20USB%20side.png)
-![](images/Open%20from%20DMX%20side.png)
-
-
