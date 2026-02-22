@@ -41,9 +41,9 @@
 
 #define STARTUP_MODE_PIN       0    // pin for force default setup when low (use 10k pullup to insure high)
 
-#define DIRECTION_PIN			     4		// pin for output direction enable on MAX481 chip
-#define DMXSERIAL_INPUT_PIN		16		// default UART2 RX pin
-#define DMXSERIAL_OUTPUT_PIN	17		// default UART2 TX pin
+#define DIRECTION_PIN         21    // pin for output direction enable on RS-485 transceiver chip
+#define DMXSERIAL_INPUT_PIN   18    // RX pin on WS RX485 board
+#define DMXSERIAL_OUTPUT_PIN  17    // TX Pin on WS RX485 Board
 #define STATUS_LED             2    // LED_BUILTIN for DOIT ESP32 DevKit V1
 
 #define DEBUG_PIN_A 22
