@@ -5,6 +5,7 @@ Art-Net to DMX gateway and viceversa. It supports RDM and sACN (E1.31) too.
 ![](images/Assembled.png)
 
 Strongly based on amazing [LXDMXWiFi_Library](https://github.com/claudeheintz/LXDMXWiFi_Library) example [ESP32-DMX_rdm](https://github.com/claudeheintz/LXDMXWiFi_Library/tree/master/examples/ESP32-DMX_rdm). Forked to Change Input/Output/Direction pins to test if this will work on the Waveshare Industrial 1-Channel ESP32-S3 WiFi Relay Module, Supports WiFi / Bluetooth / RS485 Control, With Multiple Isolation Protection Circuits, Rail-Mount Case. Relay would not be available.
+![](images/ESP32-S3-Relay-1CH-details-15.jpg)
 
 Configuration utility for macOS and Windows is [here](https://github.com/claudeheintz/LXDMXWiFi_Library/tree/master/examples/configuration%20utility)
 
