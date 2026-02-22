@@ -11,9 +11,9 @@ Configuration utility for macOS and Windows is [here](https://github.com/claudeh
 Changes from original source are:
 ```
 #define STARTUP_MODE_PIN       0    // use onboard built-in button for force default setup
-#define DIRECTION_PIN          4    // pin for output direction enable on RS-485 transceiver chip
+#define DIRECTION_PIN         21    // pin for output direction enable on RS-485 transceiver chip
 #define DMXSERIAL_INPUT_PIN   18    // RX pin on WS RX485 board
-#define DMXSERIAL_OUTPUT_PIN  21    // TX Pin on WS RX485 Board
+#define DMXSERIAL_OUTPUT_PIN  17    // TX Pin on WS RX485 Board
 #define STATUS_LED             2    // LED_BUILTIN for DOIT ESP32 DevKit V1
 
 ....
